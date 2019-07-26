@@ -4,7 +4,7 @@ def main(a, b):
 	A e B devem ser números.
 	Retorna a soma.
 	"""
-    result = round(a + b, 2)
+    result = round(a ** b, 2)
     print(f"\nO resultado é {result}")
 
 
